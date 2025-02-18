@@ -1,0 +1,38 @@
+@import "tailwindcss";
+/* @font-face {
+    font-family:"Raleway", serif;" 
+    src: url();
+} */
+@theme {
+    --font-roboto:"Roboto", serif;
+    --font-raleway:"Raleway", serif;
+}
+
+/* From Uiverse.io by elijahgummer */ 
+
+/* From Uiverse.io by cssbuttons-io */ 
+button.read-button{
+
+    text-transform: uppercase;
+ 
+    font-weight: 500;
+    color:white;
+    background-color: #FF4B4B;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button.read-button:hover {
+    background-color: #FF4B4B;
+    box-shadow: 0px_15px_20px_rgba(255,75,75,0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button.read-button:active {
+    transform: translateY(-1px);
+  }
