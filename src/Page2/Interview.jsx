@@ -7,16 +7,22 @@ import Related from "../Components/Page2components/Related";
 function Interview() {
   return (
     <>
-    <div className="bg-[url(/src/assets/Images/bgimg2.png)] relative bg-cover bg-center bg-no-repeat md:w-full h-[580px] md:h-[800px] overflow-hidden">
+    <div className="relative w-full h-[580px] md:h-[800px] overflow-hidden">
+        {/* Video Element */}
+        <video
+          className="absolute top-0 left-0 w-full h-full object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/src/assets/Videos/interviewvideo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
       <div className="max-w-screen-2xl  mx-auto px-5 sm:px-16">
         <div className="w-full h-full bg-black/20 absolute inset-0"></div>
 
-        <div className=" absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 cursor-pointer hidden md:block">
-          <img src={play} alt="" />
-        </div>
-        <div className=" absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 cursor-pointer block md:hidden">
-          <img src={play1} alt="" />
-        </div>
        
       </div>
     </div>

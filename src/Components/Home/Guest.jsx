@@ -134,7 +134,7 @@ function Guest() {
         >
           {guest.map((item, index) => (
             <SwiperSlide key={item.id}>
-              <div className="cards shrink-0 flex flex-col w-[237px] md:w-[280px] h-[350px] md:h-[401px] border border-[#E7E7E7] shadow-[20px_20px_43px_0px_#0000001A] mx-auto">
+              <div className="cards shrink-0 flex flex-col w-[237px] md:w-[280px] h-[350px] md:h-[401px] border border-[#E7E7E7]  mx-auto">
                 <div className="image bg-[#FF4B4B] relative">
                   <div className="absolute inset-0">
                     <img src={translogo} alt="" />
