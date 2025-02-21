@@ -3,6 +3,7 @@ import play from "../assets/SVG/play.svg";
 import play1 from "../assets/SVG/redplay.svg"
 import Description from "../Components/Page2components/Description";
 import Related from "../Components/Page2components/Related";
+import interview from "../assets/Videos/interviewvideo.mp4"
 
 function Interview() {
   return (
@@ -16,7 +17,7 @@ function Interview() {
           muted
           playsInline
         >
-          <source src="/src/assets/Videos/interviewvideo.mp4" type="video/mp4" />
+          <source src={interview} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
