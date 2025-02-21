@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import play from "../../assets/SVG/play.svg";
 import Popup from "./Popup";
 import home from "../../assets/Videos/homevideo.mp4"
+import bg from "../../assets/Images/bgimage.png"
 
 
 function Hero() {
@@ -25,7 +26,7 @@ function Hero() {
         loop
         muted
         playsInline
-        poster="/src/assets/Images/bgimage.png"
+        poster={bg}
       >
         <source src={home} type="video/mp4" />
         Your browser does not support the video tag.
